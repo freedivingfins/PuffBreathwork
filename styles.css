@@ -14,6 +14,31 @@ header {
     color: white;
 }
 
+
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Aligns the nav to the right */
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    margin-left: 20px; /* Add some space between links if needed */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
 .logo-container {
     display: flex;
     justify-content: center;
@@ -23,29 +48,6 @@ header {
 .logo {
     width: 100px; /* Adjust as needed */
     height: auto;
-}
-
-header nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-header nav ul li {
-    display: inline;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-header nav ul li a:hover {
-    color: #f0a500;
 }
 
 #hero {
@@ -78,7 +80,27 @@ header nav ul li a:hover {
     border-radius: 5px;
 }
 
-#features, #download {
+/* Section Features Styles */
+#features {
+    text-align: center; /* Centers the section title */
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#features ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    text-align: left; /* Left justifies the list items */
+    display: inline-block; /* Keeps the list centered while left-aligning the text inside */
+}
+
+#features li {
+    margin-bottom: 10px; /* Adds space between list items */
+    font-size: 1.2em; /* Adjusts the font size for readability */
+}
+
+#download {
     padding: 30px 0;
     text-align: center;
 }
