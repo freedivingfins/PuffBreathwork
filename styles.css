@@ -16,6 +16,7 @@ header {
 
 .logo-container {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -55,13 +56,17 @@ header nav ul li a:hover {
 
 #hero ul {
     display: inline-block; /* Center the ul itself */
-    text-align: left; /* Ensure the text inside the ul remains left-aligned */
+    text-align: Center;
     list-style: none; /* Optional: Remove default bullets if needed */
     padding: 0; /* Optional: Remove default padding */
     margin: 0; /* Optional: Remove default margin */
 }
 
 #hero ul li {
+    display: inline-block; /* Center the ul itself */
+    text-align: left; /* Ensure the text inside the ul remains left-aligned */
+    list-style: none; /* Optional: Remove default bullets if needed */
+    padding: 0; /* Optional: Remove default padding */
     margin: 10px 0; /* Add spacing between list items */
 }
 
